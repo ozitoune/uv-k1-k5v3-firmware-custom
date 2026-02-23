@@ -32,7 +32,7 @@
 #endif
 
 #ifdef ENABLE_FEAT_F4HWN_GAME
-#include "app/breakout.h"
+#include "app/game.h"
 #endif
 
 #include "audio.h"
@@ -603,7 +603,7 @@ static void MAIN_Key_DIGITS(KEY_Code_t Key, bool bKeyPressed, bool bKeyHeld)
                 return;
             }
         #endif
-        APP_RunBreakout();
+        APP_RunGame();
         return;
     }
     #endif

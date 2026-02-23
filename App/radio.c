@@ -1194,8 +1194,6 @@ void RADIO_PrepareTX(void)
 
     FUNCTION_Select(FUNCTION_TRANSMIT);
 
-
-
     gTxTimerCountdown_500ms = 0;            // no timeout
 
     #if defined(ENABLE_ALARM) || defined(ENABLE_TX1750)
